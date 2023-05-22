@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+.bsp/
+target/
+project/
+*.class
+*.log
+*.csv
+src/main/resources/*.zip
+
