@@ -24,9 +24,9 @@ object HotelDemo {
       val hotel = context.spawn(Hotel("hotel_1"), "hotel_1")
 
       //make a manual reservation here, or change or cancel it.
-      ///hotel.tell(RequestReservation(UUID.randomUUID().toString, Date.valueOf("2023-01-01"), Date.valueOf("2023-01-03"), 1, logger))
-      //hotel.tell(ChangeReservation("2VZ5K6JAE5", Date.valueOf("2023-01-1"), Date.valueOf("2023-01-3"), 2, logger))
-      //hotel.tell(CancelReservation("2VZ5K6JAE5", logger))
+      //hotel.tell(RequestReservation(UUID.randomUUID().toString, Date.valueOf("2023-01-01"), Date.valueOf("2023-01-03"), 1, logger))
+      //hotel.tell(ChangeReservation("DOG57SE1YT", Date.valueOf("2023-01-1"), Date.valueOf("2023-01-3"), 2, logger))
+      //hotel.tell(CancelReservation("DOG57SE1YT", logger))
 
       Behaviors.empty
     }
